@@ -1,12 +1,14 @@
 {
-  "name": "joinup-proxy",
+  "name": "joinup-api-proxy",
   "version": "1.0.0",
+  "description": "Proxy and Telegram Bot for Holiday Outlet",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.9",
+    "node-telegram-bot-api": "^0.66.0"
   }
 }
